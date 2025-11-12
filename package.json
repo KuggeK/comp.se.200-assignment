@@ -1,0 +1,27 @@
+{
+  "name": "softwaretesting",
+  "version": "1.0.0",
+  "description": "Repository for our solution to Software Testing assignment part 2.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./tests/*/"
+  },
+  "imports": {
+    "#src/*": "./src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuggeK/comp.se.200-assignment.git"
+  },
+  "author": "Kilian and Tatu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuggeK/comp.se.200-assignment/issues"
+  },
+  "homepage": "https://github.com/KuggeK/comp.se.200-assignment#readme",
+  "devDependencies": {
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5"
+  }
+}
