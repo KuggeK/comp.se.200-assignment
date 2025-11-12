@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha ./tests/*/"
+    "test": "mocha ./tests/human",
+    "test-AI": "mocha ./tests/AI"
   },
   "imports": {
     "#src/*": "./src/*"
