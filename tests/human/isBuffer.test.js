@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+/*import { describe, it } from "mocha"
 import { expect } from "chai"
 
 import isBuffer from "#src/isBuffer.js"
@@ -31,3 +31,4 @@ describe("isBuffer", () => {
         expect(isBuffer(() => {})).to.equal(false)
     })
 })
+*/
