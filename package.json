@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Repository for our solution to Software Testing assignment part 2.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "c8 --reporter=lcovonly mocha ./tests/human",
     "test-AI": "mocha ./tests/AI"
