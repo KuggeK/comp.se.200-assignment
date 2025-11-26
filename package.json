@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "c8 --reporter=lcovonly mocha ./tests/human",
-    "test-AI": "mocha ./tests/AI"
+    "test": "c8 --reporter=lcovonly mocha ./tests/*"
   },
   "imports": {
     "#src/*": "./src/*"
